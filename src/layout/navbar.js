@@ -33,17 +33,37 @@ const Navbar = () => {
         >
           U.S.DEBT
         </Typography>
-        <Button
+        <Box
+          gap={"10px"}
           sx={{
-            background: "#FF8000",
-            color: "#000000",
-            fontSize: "14px",
-            textTransform: "none",
-            ":hover": { background: "#FF8000" },
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
           }}
         >
-          Connect Wallet
-        </Button>
+          <Button
+            sx={{
+              background: "#FF8000",
+              color: "#000000",
+              fontSize: "14px",
+              textTransform: "none",
+              ":hover": { background: "#FF8000" },
+            }}
+          >
+            Sign
+          </Button>
+          <Button
+            sx={{
+              background: "#FF8000",
+              color: "#000000",
+              fontSize: "14px",
+              textTransform: "none",
+              ":hover": { background: "#FF8000" },
+            }}
+          >
+            Connect Wallet
+          </Button>
+        </Box>
       </Container>
     </Box>
   );
