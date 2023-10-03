@@ -43,11 +43,12 @@ const Navbar = () => {
         >
           <Button
             sx={{
-              background: "#FF8000",
-              color: "#000000",
-              fontSize: "14px",
+              background: "transparent",
+              color: "#FF8000",
+              fontSize: "16px",
+              fontWeight: '500',
               textTransform: "none",
-              ":hover": { background: "#FF8000" },
+              ":hover": { background: "transparent" },
             }}
           >
             Sign
